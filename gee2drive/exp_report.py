@@ -4,7 +4,7 @@ import os
 import json
 import time
 import sys
-from kml2ee import kml2coord
+from .kml2ee import kml2coord
 
 os.chdir(os.path.dirname(os.path.realpath(__file__)))
 
